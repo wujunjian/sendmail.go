@@ -1,0 +1,28 @@
+<Config>
+<CopyTo>
+    <Value>one@mail.com</Value>
+    <Value>two@mail.com</Value>
+</CopyTo>
+<CnTemplet>templets/mail.html</CnTemplet>
+<EnTemplet>templets/enmail.html</EnTemplet>
+<Username>*****************</Username>
+<Password>************</Password>
+<Port>25</Port>
+<Threshold>10</Threshold>
+<Subject>Subject: %%THEMENAME%%正在引起 崩溃</Subject>
+<EnSubject>Subject: %%THEMENAME%% is causing the crash of client</EnSubject>
+<SmtpHost>**********</SmtpHost>
+<From>from@mail.com</From>
+<DefaultNames>
+    <ThemeName>未知的</ThemeName>
+    <NickName>亲爱的</NickName>
+    <Email>wujunjian@mail.com</Email>
+    <AccountName></AccountName>
+    <Mtime></Mtime>
+    <DesignerUrl></DesignerUrl>
+    <HaveDesignerInfo></HaveDesignerInfo>
+    <NoDesignerInfo></NoDesignerInfo>
+    <EnHaveDesignerInfo></EnHaveDesignerInfo>
+    <EnNoDesignerInfo></EnNoDesignerInfo>
+</DefaultNames>
+</Config>
